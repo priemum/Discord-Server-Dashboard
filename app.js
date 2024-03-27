@@ -8,7 +8,7 @@ const morgan = require('morgan');
 const { readdir } = require('fs');
 const jwt = require('jsonwebtoken');
 const dotenv = require("dotenv");
-const mongoose = require("mongoose");
+const mongoose = require("mongoose");      
 
 mongoose.connect(
   process.env.DB,
